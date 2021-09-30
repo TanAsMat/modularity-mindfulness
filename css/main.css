@@ -38,3 +38,132 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+nav ul {
+  display:flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: #3783a3;
+  font-size: 1.125rem;
+}
+
+li {
+  display: inline-block;
+}
+
+.title {
+  font-weight: bold;
+}
+
+footer {
+  text-align:
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: .2rem solid #3783a3;
+  border-radius: 3rem;
+  padding: .5em 1em .6em;
+  padding-right: 2.5rem;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 38) {
+
+  .aline {
+    color: #e2e2e2;
+    padding-top: 1px;
+  }
+
+article,
+main {
+  display: grid;
+  grid-column: 1/4;
+}
+
+main {
+  gap: 1rem;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0 1rem;
+  align-items: flex-start;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.banner-pic {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.125rem;
+}
+
+nav li {
+  padding: 0.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-pic {
+  margin-bottom: 2rem;
+}
+
+figure {
+  display: grid;
+}
+
+hr {
+  margin-bottom: 0;
+}
+
+.viewing {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0;
+}
+
+.gravel {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+}
+
+.symbolism {
+  display: grid;
+  grid-column: 3;
+  grid-row: 3;
+  margin: 0;
+}
+
+footer {
+  display: grid;
+  grid-column: -4/-1
+}
+
+}
